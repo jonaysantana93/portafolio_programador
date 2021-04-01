@@ -247,14 +247,18 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
-		font-family: Raleway, Helvetica, sans-serif;
-		font-weight: 700;
-		letter-spacing: 0.1em;
-		margin: 0 0 1em 0;
-		text-transform: uppercase;
+	.DescripProyectos {
+		text-align:center;
 	}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #ffffff;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	margin: 0 0 1em 0;
+	text-transform: uppercase;
+}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -2777,12 +2781,20 @@ input, select, textarea {
 
 		}
 
-/* Table */
-
-	.table-wrapper {
-		-webkit-overflow-scrolling: touch;
-		overflow-x: auto;
+	.CurriculumIndexado {
+		margin-left: 5%;
+		margin-right: 5%;
 	}
+
+/* Table */
+tableExperience {
+	text-align: center;
+}
+
+.table-wrapper {
+	-webkit-overflow-scrolling: touch;
+	overflow-x: auto;
+}
 
 	table {
 		margin: 0 0 2em 0;
