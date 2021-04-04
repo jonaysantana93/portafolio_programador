@@ -2394,7 +2394,7 @@ h1, h2, h3, h4, h5, h6 {
 			font-weight: 400;
 		}
 
-		.icon > .label {
+		.iconicon > .label {
 			display: none;
 		}
 
@@ -2787,11 +2787,16 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 /* Table */
-@media screen and (max-width:100%) {
+/*@media screen and (max-width:100%) {
 	.tablaCurriculum {
+		border:none;
 		width: 100%;
-		display:block;
+		border-collapse:collapse;
 	}
+}*/
+
+.concatCurriculum {
+	text-align:center;
 }
 
 tableExperience {
@@ -4047,13 +4052,13 @@ tableExperience {
 			width: calc(50% - 1.5em);
 		}
 
-		#footer .inner .copyright {
-			border-top: solid 2px rgba(255, 255, 255, 0.125);
-			list-style: none;
-			margin: 4em 0 2em 0;
-			padding: 2em 0 0 0;
-			width: 100%;
-		}
+#footer .inner .copyright {
+	border-top: solid 2px rgba(255, 255, 255, 0.125);
+	list-style: none;
+	margin: 4em 0 2em 0;
+	padding: 2em 0 0 0;
+	width: 100%;
+}
 
 			#footer .inner .copyright li {
 				border-left: solid 2px rgba(255, 255, 255, 0.125);
@@ -4168,4 +4173,9 @@ tableExperience {
 
 .imagenCurriculum img {
 	width:30%;
+}
+
+.concatcCurri{
+/*	padding-top:5%;
+	padding-left:30%;*/
 }
